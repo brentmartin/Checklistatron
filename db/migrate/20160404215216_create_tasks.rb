@@ -1,7 +1,7 @@
 class CreateTasks < ActiveRecord::Migration
   def change
     create_table :tasks do |t|
-      t.sting :description
+      t.string :description
       t.boolean :completion
       t.integer :position
     end

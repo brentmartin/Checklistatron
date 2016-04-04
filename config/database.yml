@@ -18,8 +18,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: checklist_data
+  database: checklist_data_test
 
 production:
   <<: *default
-  database: checklist_data
+  database: checklist_data_production
